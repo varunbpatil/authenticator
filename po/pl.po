@@ -5,23 +5,23 @@
 # Piotr Drąg <piotrdrag@gmail.com>, 2019-2023.
 # Aviary.pl <community-poland@mozilla.org>, 2019-2023.
 # Jakub Rączkowski <jakubr@gmail.com>, 2024.
-# Victoria <royal.victoria@proton.me>, 2026.
+# Victoria Niedzielska <victorian@gnome.org>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Authenticator\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Authenticator/issues\n"
 "POT-Creation-Date: 2026-02-03 00:24+0000\n"
-"PO-Revision-Date: 2026-03-13 17:35+0100\n"
-"Last-Translator: Victoria <royal.victoria@proton.me>\n"
-"Language-Team: Polish\n"
+"PO-Revision-Date: 2026-07-16 23:10+0200\n"
+"Last-Translator: Victoria Niedzielska <victorian@gnome.org>\n"
+"Language-Team: Polish <https://l10n.gnome.org/teams/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Gtranslator 49.0\n"
+"X-Generator: Gtranslator 50.0\n"
 
 #: data/com.belmoussaoui.Authenticator.desktop.in.in:2
 #: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:7
@@ -63,7 +63,7 @@ msgstr "Automatyczna blokada"
 
 #: data/com.belmoussaoui.Authenticator.gschema.xml.in:22
 msgid "Whether to auto lock the application or not"
-msgstr "Czy program ma być automatycznie blokowany"
+msgstr "Czy aplikacja ma być automatycznie blokowana"
 
 #: data/com.belmoussaoui.Authenticator.gschema.xml.in:26
 msgid "Auto lock timeout"
@@ -71,7 +71,7 @@ msgstr "Czas oczekiwania na automatyczną blokadę"
 
 #: data/com.belmoussaoui.Authenticator.gschema.xml.in:27
 msgid "Lock the application on idle after X minutes"
-msgstr "Blokowanie programu po bezczynności przez X minut"
+msgstr "Blokowanie aplikacji po bezczynności przez X minut"
 
 #: data/com.belmoussaoui.Authenticator.gschema.xml.in:34
 msgid "Download Favicons"
@@ -80,7 +80,7 @@ msgstr "Pobieranie ikon"
 #: data/com.belmoussaoui.Authenticator.gschema.xml.in:35
 msgid ""
 "Whether the application should attempt to find an icon for the providers."
-msgstr "Czy program ma próbować odnaleźć ikony dla dostawców."
+msgstr "Czy aplikacja ma próbować odnaleźć ikony dla dostawców."
 
 #: data/com.belmoussaoui.Authenticator.gschema.xml.in:39
 msgid "Download Favicons over metered connections"
@@ -89,11 +89,11 @@ msgstr "Pobieranie ikon na połączeniach taryfowych"
 #: data/com.belmoussaoui.Authenticator.gschema.xml.in:40
 msgid ""
 "Whether the application should download favicons over a metered connection."
-msgstr "Czy program ma pobierać ikony na połączeniu taryfowym."
+msgstr "Czy aplikacja ma pobierać ikony na połączeniu taryfowym."
 
 #: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:10
 msgid "Simple application for generating Two-Factor Authentication Codes."
-msgstr "Prosty program do generowania kodów uwierzytelniania dwuetapowego."
+msgstr "Prosta aplikacja do generowania kodów uwierzytelniania dwuetapowego."
 
 #: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:11
 msgid "Features:"
@@ -113,7 +113,7 @@ msgstr "Skanowanie kodów QR za pomocą aparatu lub ze zrzutu ekranu"
 
 #: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:16
 msgid "Lock the application with a password"
-msgstr "Blokowanie programu za pomocą hasła"
+msgstr "Blokowanie aplikacji za pomocą hasła"
 
 #: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:17
 msgid "Beautiful UI"
@@ -128,7 +128,7 @@ msgid ""
 "Backup/Restore from/into known applications like FreeOTP+, Aegis "
 "(encrypted / plain-text), andOTP, Google Authenticator"
 msgstr ""
-"Tworzenie kopii zapasowej/przywracanie z/do znanych programów, takich jak "
+"Tworzenie kopii zapasowej/przywracanie z/do znanych aplikacji, takich jak "
 "FreeOTP+, Aegis (zaszyfrowane i w zwykłym tekście), andOTP i Google "
 "Authenticator"
 
@@ -243,7 +243,7 @@ msgstr "Długość generowanego kodu"
 #: data/resources/ui/account_details_page.ui:162
 #: data/resources/ui/provider_page.ui:112
 msgid "Website"
-msgstr "Witryna"
+msgstr "Strona internetowa"
 
 #: data/resources/ui/account_add.ui:197
 msgid "How to Set Up"
@@ -315,7 +315,7 @@ msgid ""
 "session information and an error occurred while we were trying to store or "
 "get your session."
 msgstr ""
-"Ten program korzysta z dostawcy usługi Secret Service do zarządzania "
+"Ta aplikacja korzysta z dostawcy usługi Secret Service do zarządzania "
 "prywatnymi informacjami o sesji użytkownika i wystąpił błąd podczas próby "
 "przechowania lub uzyskania sesji użytkownika."
 
@@ -344,8 +344,8 @@ msgid ""
 "Check the application logs and your distribution’s documentation for more "
 "details."
 msgstr ""
-"Dzienniki programu i dokumentacja używanej dystrybucji mogą zawierać więcej "
-"informacji."
+"Proszę sprawdzić dzienniki aplikacji i dokumentację używanej dystrybucji po "
+"więcej informacji."
 
 #: data/resources/ui/preferences.ui:14
 msgid "General"
@@ -361,15 +361,15 @@ msgstr "_Hasło"
 
 #: data/resources/ui/preferences.ui:22
 msgid "Set up a passphrase to lock the application with"
-msgstr "Ustawienie hasła, którym blokować program"
+msgstr "Ustawienie hasła, którym blokować aplikację"
 
 #: data/resources/ui/preferences.ui:35
 msgid "_Auto Lock the Application"
-msgstr "_Automatyczne blokowanie programu"
+msgstr "_Automatyczne blokowanie aplikacji"
 
 #: data/resources/ui/preferences.ui:37
 msgid "Whether to automatically lock the application"
-msgstr "Czy automatycznie blokować program"
+msgstr "Czy automatycznie blokować aplikację"
 
 #: data/resources/ui/preferences.ui:43
 msgid "Auto Lock _Timeout"
@@ -409,7 +409,7 @@ msgstr "Ustawienie hasła"
 
 #: data/resources/ui/preferences_password_page.ui:29
 msgid "Authenticator will start locked after a passphrase is set."
-msgstr "Po ustawieniu hasła program będzie uruchamiany jako zablokowany."
+msgstr "Po ustawieniu hasła aplikacja będzie uruchamiana jako zablokowana."
 
 #: data/resources/ui/preferences_password_page.ui:53
 msgid "Current Passphrase"
@@ -457,11 +457,11 @@ msgstr "Nowy dostawca"
 #: data/resources/ui/providers_dialog.ui:52 data/resources/ui/window.ui:198
 #: data/resources/ui/window.ui:218
 msgid "Search"
-msgstr "Wyszukiwanie"
+msgstr "Wyszukaj"
 
 #: data/resources/ui/providers_dialog.ui:47 data/resources/ui/window.ui:213
 msgid "Search…"
-msgstr "Wyszukiwanie…"
+msgstr "Wyszukaj…"
 
 #: data/resources/ui/providers_dialog.ui:93
 #: data/resources/ui/providers_list.ui:38
@@ -531,7 +531,7 @@ msgstr "Wyświetlenie listy dostawców"
 
 #: data/resources/ui/window.ui:6
 msgid "_Lock the Application"
-msgstr "Za_blokuj program"
+msgstr "Za_blokuj aplikację"
 
 #: data/resources/ui/window.ui:12
 msgid "P_roviders"
@@ -551,11 +551,11 @@ msgstr "_Skróty klawiszowe"
 
 #: data/resources/ui/window.ui:30
 msgid "_About Authenticator"
-msgstr "_O programie"
+msgstr "_O aplikacji"
 
 #: data/resources/ui/window.ui:70
 msgid "Authenticator is Locked"
-msgstr "Program jest zablokowany"
+msgstr "Aplikacja jest zablokowana"
 
 #: data/resources/ui/window.ui:96
 msgid "_Unlock"
@@ -590,7 +590,9 @@ msgid "translator-credits"
 msgstr ""
 "WaldiS <admin@sto.ugu.pl>, 2018\n"
 "Piotr Drąg <piotrdrag@gmail.com>, 2019-2023\n"
-"Aviary.pl <community-poland@mozilla.org>, 2019-2023"
+"Aviary.pl <community-poland@mozilla.org>, 2019-2023\n"
+"Jakub Rączkowski <jakubr@gmail.com>, 2024\n"
+"Victoria Niedzielska <victorian@gnome.org>, 2026"
 
 #: src/application.rs:433 src/widgets/accounts/row.rs:45
 msgid "One-Time password copied"
@@ -651,7 +653,7 @@ msgstr "_Authenticator"
 
 #: src/backup/freeotp.rs:22
 msgid "Into a plain-text file, compatible with FreeOTP+"
-msgstr "Do pliku tekstowego, zgodne z programem FreeOTP+"
+msgstr "Do pliku tekstowego, zgodne z aplikacją FreeOTP+"
 
 #: src/backup/freeotp.rs:51
 msgid "A_uthenticator"
@@ -659,7 +661,7 @@ msgstr "A_uthenticator"
 
 #: src/backup/freeotp.rs:55
 msgid "From a plain-text file, compatible with FreeOTP+"
-msgstr "Z pliku tekstowego, zgodne z programem FreeOTP+"
+msgstr "Z pliku tekstowego, zgodne z aplikacją FreeOTP+"
 
 #: src/backup/freeotp_json.rs:87
 msgid "FreeOTP+"
@@ -667,7 +669,7 @@ msgstr "FreeOTP+"
 
 #: src/backup/freeotp_json.rs:91
 msgid "From a plain-text JSON file, compatible with FreeOTP+"
-msgstr "Z tekstowego pliku JSON, zgodne z programem FreeOTP+"
+msgstr "Z tekstowego pliku JSON, zgodne z aplikacją FreeOTP+"
 
 #: src/backup/google.rs:19
 msgid "Google Authenticator"
@@ -810,9 +812,3 @@ msgstr "Dostawca ma powiązane konta, proszę je najpierw usunąć"
 #: src/widgets/window.rs:115
 msgid "Wrong Password"
 msgstr "Błędne hasło"
-
-#~ msgid "Bilal Elmoussaoui"
-#~ msgstr "Bilal Elmoussaoui"
-
-#~ msgid "Unknown Device"
-#~ msgstr "Nieznane urządzenie"
