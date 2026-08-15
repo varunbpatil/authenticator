@@ -10,9 +10,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: authenticator master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Authenticator/issues\n"
-"POT-Creation-Date: 2026-02-03 00:24+0000\n"
-"PO-Revision-Date: 2026-02-13 08:35+0800\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Authenticator\n"
+"POT-Creation-Date: 2026-02-27 21:52+0000\n"
+"PO-Revision-Date: 2026-08-15 17:30+0800\n"
 "Last-Translator: lumingzh <lumingzh@qq.com>\n"
 "Language-Team: Chinese (China) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Gtranslator 49.0\n"
+"X-Generator: Gtranslator 50.0\n"
 
 #: data/com.belmoussaoui.Authenticator.desktop.in.in:2
 #: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:7
@@ -139,7 +139,7 @@ msgstr "主窗口"
 #: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:29
 #: data/resources/ui/account_add.ui:30 data/resources/ui/account_add.ui:47
 msgid "Add a New Account"
-msgstr "添加新账号"
+msgstr "添加新账户"
 
 #: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:33
 msgid "Add a New Provider"
@@ -147,11 +147,17 @@ msgstr "添加新提供方"
 
 #: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:37
 msgid "Account Details"
-msgstr "账号详情"
+msgstr "账户详情"
 
 #: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:41
 msgid "Backup/Restore formats support"
 msgstr "支持的备份/恢复格式"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:342
+#: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:344
+msgid "Bilal Elmoussaoui"
+msgstr "Bilal Elmoussaoui"
 
 #: data/resources/ui/account_add.ui:6 src/widgets/backup/dialog.rs:276
 msgid "_Camera"
@@ -191,7 +197,7 @@ msgstr "令牌颁发者"
 #: data/resources/ui/account_add.ui:128
 #: data/resources/ui/account_details_page.ui:91
 msgid "Account"
-msgstr "账号"
+msgstr "账户"
 
 #: data/resources/ui/account_add.ui:134
 msgid "Token"
@@ -283,7 +289,7 @@ msgstr "复制验证码到剪贴板"
 
 #: data/resources/ui/account_row.ui:43
 msgid "Account details"
-msgstr "账号详情"
+msgstr "账户详情"
 
 #: data/resources/ui/backup_dialog.ui:4 data/resources/ui/backup_dialog.ui:8
 msgid "Backup & Restore"
@@ -473,7 +479,7 @@ msgstr "选择提供者或创建新提供者"
 
 #: data/resources/ui/providers_list.ui:39
 msgid "No accounts or providers matching the query were found."
-msgstr "未找到与查询匹配的账号和提供方。"
+msgstr "未找到与查询匹配的账户和提供方。"
 
 #: data/resources/ui/shortcuts.ui:6
 msgctxt "shortcut window"
@@ -503,12 +509,12 @@ msgstr "退出"
 #: data/resources/ui/shortcuts.ui:35
 msgctxt "shortcut window"
 msgid "Accounts"
-msgstr "账号"
+msgstr "账户"
 
 #: data/resources/ui/shortcuts.ui:38
 msgctxt "shortcut window"
 msgid "New Account"
-msgstr "新增账号"
+msgstr "新增账户"
 
 #: data/resources/ui/shortcuts.ui:44
 msgctxt "shortcut window"
@@ -554,11 +560,11 @@ msgstr "解锁(_U)"
 
 #: data/resources/ui/window.ui:126
 msgid "Accounts"
-msgstr "账号"
+msgstr "账户"
 
 #: data/resources/ui/window.ui:141 data/resources/ui/window.ui:179
 msgid "New Account"
-msgstr "新建账号"
+msgstr "新建账户"
 
 #: data/resources/ui/window.ui:149 data/resources/ui/window.ui:192
 msgid "Main Menu"
@@ -566,15 +572,15 @@ msgstr "主菜单"
 
 #: data/resources/ui/window.ui:157
 msgid "No Accounts"
-msgstr "无账号"
+msgstr "无账户"
 
 #: data/resources/ui/window.ui:158
 msgid "Add an account or scan a QR code first."
-msgstr "请先添加账号或扫描二维码。"
+msgstr "请先添加账户或扫描二维码。"
 
 #: src/application.rs:83
 msgid "Accounts restored successfully"
-msgstr "账号已成功恢复"
+msgstr "账户已成功恢复"
 
 #: src/application.rs:123
 msgid "translator-credits"
@@ -628,7 +634,7 @@ msgstr "从 JSON 纯文本文件导入"
 
 #: src/backup/bitwarden.rs:47
 msgid "Unknown account"
-msgstr "未知账号"
+msgstr "未知账户"
 
 #: src/backup/bitwarden.rs:55
 msgid "Unknown issuer"
@@ -733,7 +739,7 @@ msgstr "无效的令牌"
 
 #: src/widgets/accounts/details.rs:124
 msgid "Are you sure you want to delete the account?"
-msgstr "您确定想要删除该账号吗？"
+msgstr "您确定想要删除该账户吗？"
 
 #: src/widgets/accounts/details.rs:125
 msgid "This action is irreversible"
@@ -799,14 +805,11 @@ msgstr "编辑提供方：{}"
 
 #: src/widgets/providers/page.rs:329
 msgid "The provider has accounts assigned to it, please remove them first"
-msgstr "此提供方已经被分配了账号，请先移除这些账号"
+msgstr "此提供方已经被分配了账户，请先移除这些账户"
 
 #: src/widgets/window.rs:115
 msgid "Wrong Password"
 msgstr "错误的密码"
-
-#~ msgid "Bilal Elmoussaoui"
-#~ msgstr "Bilal Elmoussaoui"
 
 #~ msgid "Unknown Device"
 #~ msgstr "未知设备"
