@@ -8,9 +8,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: authenticator master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Authenticator/issues\n"
-"POT-Creation-Date: 2026-02-03 00:24+0000\n"
-"PO-Revision-Date: 2026-03-01 09:33+0100\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Authenticator\n"
+"POT-Creation-Date: 2026-02-27 21:52+0000\n"
+"PO-Revision-Date: 2026-09-04 09:53+0200\n"
 "Last-Translator: twlvnn kraftwerk <kraft_werk@tutanota.com>\n"
 "Language-Team: Bulgarian\n"
 "Language: bg\n"
@@ -18,10 +18,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Poedit 3.9\n"
 
-#: data/com.belmoussaoui.Authenticator.desktop.in.in:2
-#: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:7
+#: data/com.belmoussaoui.Authenticator.desktop.in.in:2 data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:7
 #: data/resources/ui/window.ui:40 src/application.rs:112 src/main.rs:40
 msgid "Authenticator"
 msgstr "Удостоверител"
@@ -30,9 +29,7 @@ msgstr "Удостоверител"
 msgid "Two-Factor Authentication"
 msgstr "Двуфакторно удостоверяване на самоличност"
 
-#: data/com.belmoussaoui.Authenticator.desktop.in.in:4
-#: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:8
-#: src/application.rs:114
+#: data/com.belmoussaoui.Authenticator.desktop.in.in:4 data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:8 src/application.rs:114
 msgid "Generate two-factor codes"
 msgstr "Генериране на двуфакторни кодове"
 
@@ -40,13 +37,11 @@ msgstr "Генериране на двуфакторни кодове"
 msgid "Gnome;GTK;Verification;2FA;Authentication;OTP;TOTP;"
 msgstr "гном;удостоверяване;потвърждаване;самоличност;верификация;автентикация;2фа;gnome;gtk;verification;2fa;authentication;otp;totp;"
 
-#: data/com.belmoussaoui.Authenticator.gschema.xml.in:6
-#: data/com.belmoussaoui.Authenticator.gschema.xml.in:7
+#: data/com.belmoussaoui.Authenticator.gschema.xml.in:6 data/com.belmoussaoui.Authenticator.gschema.xml.in:7
 msgid "Default window width"
 msgstr "Стандартна широчина на прозореца"
 
-#: data/com.belmoussaoui.Authenticator.gschema.xml.in:11
-#: data/com.belmoussaoui.Authenticator.gschema.xml.in:12
+#: data/com.belmoussaoui.Authenticator.gschema.xml.in:11 data/com.belmoussaoui.Authenticator.gschema.xml.in:12
 msgid "Default window height"
 msgstr "Стандартна височина на прозореца"
 
@@ -75,8 +70,7 @@ msgid "Download Favicons"
 msgstr "Изтегляне на иконите на страниците"
 
 #: data/com.belmoussaoui.Authenticator.gschema.xml.in:35
-msgid ""
-"Whether the application should attempt to find an icon for the providers."
+msgid "Whether the application should attempt to find an icon for the providers."
 msgstr "Дали приложението да търси икони за доставчиците."
 
 #: data/com.belmoussaoui.Authenticator.gschema.xml.in:39
@@ -84,17 +78,12 @@ msgid "Download Favicons over metered connections"
 msgstr "Изтегляне на иконите на страниците дори и при таксувана връзка"
 
 #: data/com.belmoussaoui.Authenticator.gschema.xml.in:40
-msgid ""
-"Whether the application should download favicons over a metered connection."
-msgstr ""
-"Дали приложението да изтегля икони за доставчиците дори и при таксувана "
-"връзка."
+msgid "Whether the application should download favicons over a metered connection."
+msgstr "Дали приложението да изтегля икони за доставчиците дори и при таксувана връзка."
 
 #: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:10
 msgid "Simple application for generating Two-Factor Authentication Codes."
-msgstr ""
-"Просто приложение за генериране на кодове за двуфакторно потвърждаване на "
-"самоличност."
+msgstr "Просто приложение за генериране на кодове за двуфакторно потвърждаване на самоличност."
 
 #: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:11
 msgid "Features:"
@@ -125,18 +114,14 @@ msgid "GNOME Shell search provider"
 msgstr "Доставчик на търсене за обвивката на GNOME"
 
 #: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:19
-msgid ""
-"Backup/Restore from/into known applications like FreeOTP+, Aegis "
-"(encrypted / plain-text), andOTP, Google Authenticator"
-msgstr ""
-"Резервно копие/Възстановяване от/към познати приложения като FreeOTP+, andOTP"
+msgid "Backup/Restore from/into known applications like FreeOTP+, Aegis (encrypted / plain-text), andOTP, Google Authenticator"
+msgstr "Резервно копие/Възстановяване от/към познати приложения като FreeOTP+, andOTP"
 
 #: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:25
 msgid "Main Window"
 msgstr "Основен прозорец"
 
-#: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:29
-#: data/resources/ui/account_add.ui:30 data/resources/ui/account_add.ui:47
+#: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:29 data/resources/ui/account_add.ui:30 data/resources/ui/account_add.ui:47
 msgid "Add a New Account"
 msgstr "Добавяне на нова регистрация"
 
@@ -151,6 +136,11 @@ msgstr "Детайли на регистрацията"
 #: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:41
 msgid "Backup/Restore formats support"
 msgstr "Поддръжка на формати за пренос на данни"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:342 data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:344
+msgid "Bilal Elmoussaoui"
+msgstr "Bilal Elmoussaoui"
 
 #: data/resources/ui/account_add.ui:6 src/widgets/backup/dialog.rs:276
 msgid "_Camera"
@@ -176,9 +166,7 @@ msgstr "_Добавяне"
 msgid "Scan QR Code"
 msgstr "Сканиране на QR код"
 
-#: data/resources/ui/account_add.ui:113
-#: data/resources/ui/account_details_page.ui:96
-#: data/resources/ui/provider_page.ui:22
+#: data/resources/ui/account_add.ui:113 data/resources/ui/account_details_page.ui:96 data/resources/ui/provider_page.ui:22
 #: data/resources/ui/providers_dialog.ui:108
 msgid "Provider"
 msgstr "Доставчик"
@@ -187,8 +175,7 @@ msgstr "Доставчик"
 msgid "Token issuer"
 msgstr "Издател на жетона"
 
-#: data/resources/ui/account_add.ui:128
-#: data/resources/ui/account_details_page.ui:91
+#: data/resources/ui/account_add.ui:128 data/resources/ui/account_details_page.ui:91
 msgid "Account"
 msgstr "Регистрация"
 
@@ -196,51 +183,35 @@ msgstr "Регистрация"
 msgid "Token"
 msgstr "Жетон"
 
-#: data/resources/ui/account_add.ui:140
-#: data/resources/ui/account_details_page.ui:135
-#: data/resources/ui/provider_page.ui:158
+#: data/resources/ui/account_add.ui:140 data/resources/ui/account_details_page.ui:135 data/resources/ui/provider_page.ui:158
 msgid "Counter"
 msgstr "Брояч"
 
-#: data/resources/ui/account_add.ui:158
-#: data/resources/ui/account_details_page.ui:119
-#: data/resources/ui/provider_page.ui:133
+#: data/resources/ui/account_add.ui:158 data/resources/ui/account_details_page.ui:119 data/resources/ui/provider_page.ui:133
 msgid "Algorithm"
 msgstr "Алгоритъм"
 
-#: data/resources/ui/account_add.ui:166
-#: data/resources/ui/account_details_page.ui:127
-#: data/resources/ui/provider_page.ui:118
+#: data/resources/ui/account_add.ui:166 data/resources/ui/account_details_page.ui:127 data/resources/ui/provider_page.ui:118
 msgid "Computing Method"
 msgstr "Метод за изчисление"
 
-#: data/resources/ui/account_add.ui:174
-#: data/resources/ui/account_details_page.ui:144
-#: data/resources/ui/provider_page.ui:149
+#: data/resources/ui/account_add.ui:174 data/resources/ui/account_details_page.ui:144 data/resources/ui/provider_page.ui:149
 msgid "Period"
 msgstr "Период"
 
-#: data/resources/ui/account_add.ui:175
-#: data/resources/ui/account_details_page.ui:145
-#: data/resources/ui/provider_page.ui:150
+#: data/resources/ui/account_add.ui:175 data/resources/ui/account_details_page.ui:145 data/resources/ui/provider_page.ui:150
 msgid "Duration in seconds until the next password update"
 msgstr "Времетраене (в секунди) до следващото обновяване на паролата"
 
-#: data/resources/ui/account_add.ui:183
-#: data/resources/ui/account_details_page.ui:153
-#: data/resources/ui/provider_page.ui:167
+#: data/resources/ui/account_add.ui:183 data/resources/ui/account_details_page.ui:153 data/resources/ui/provider_page.ui:167
 msgid "Digits"
 msgstr "Цифри"
 
-#: data/resources/ui/account_add.ui:184
-#: data/resources/ui/account_details_page.ui:154
-#: data/resources/ui/provider_page.ui:168
+#: data/resources/ui/account_add.ui:184 data/resources/ui/account_details_page.ui:154 data/resources/ui/provider_page.ui:168
 msgid "Length of the generated code"
 msgstr "Дължина на генерирания код"
 
-#: data/resources/ui/account_add.ui:192
-#: data/resources/ui/account_details_page.ui:162
-#: data/resources/ui/provider_page.ui:112
+#: data/resources/ui/account_add.ui:192 data/resources/ui/account_details_page.ui:162 data/resources/ui/provider_page.ui:112
 msgid "Website"
 msgstr "Уебсайт"
 
@@ -248,8 +219,7 @@ msgstr "Уебсайт"
 msgid "How to Set Up"
 msgstr "Ръководство за настройка"
 
-#: data/resources/ui/account_add.ui:217
-#: data/resources/ui/preferences_camera_page.ui:4
+#: data/resources/ui/account_add.ui:217 data/resources/ui/preferences_camera_page.ui:4
 msgid "Camera"
 msgstr "Камера"
 
@@ -257,14 +227,11 @@ msgstr "Камера"
 msgid "Create Provider"
 msgstr "Създаване на доставчик"
 
-#: data/resources/ui/account_details_page.ui:56
-#: data/resources/ui/preferences_password_page.ui:17
-#: data/resources/ui/provider_page.ui:29
+#: data/resources/ui/account_details_page.ui:56 data/resources/ui/preferences_password_page.ui:17 data/resources/ui/provider_page.ui:29
 msgid "_Save"
 msgstr "_Запазване"
 
-#: data/resources/ui/account_details_page.ui:67
-#: data/resources/ui/provider_page.ui:185
+#: data/resources/ui/account_details_page.ui:67 data/resources/ui/provider_page.ui:185
 msgid "_Delete"
 msgstr "_Изтриване"
 
@@ -310,39 +277,27 @@ msgstr "Грешка в услугата за тайни"
 
 #: data/resources/ui/keyring_error_dialog.ui:35
 msgid ""
-"Authenticator relies on a Secret Service Provider to manage your sensitive "
-"session information and an error occurred while we were trying to store or "
-"get your session."
+"Authenticator relies on a Secret Service Provider to manage your sensitive session information and an error occurred while we were "
+"trying to store or get your session."
 msgstr ""
-"„Удостоверител“ разчита на наличието на услуга за тайни, която да управлява "
-"чувствителните данни. Възникна грешка при опита за съхранение или получаване "
-"на сесията ви."
+"„Удостоверител“ разчита на наличието на услуга за тайни, която да управлява чувствителните данни. Възникна грешка при опита за "
+"съхранение или получаване на сесията ви."
 
 #: data/resources/ui/keyring_error_dialog.ui:47
-msgid ""
-"Here are a few things that might help you fix issues with the Secret Service:"
-msgstr ""
-"Ето насоки какво да проверите, за да коригирате проблемите с услугата за "
-"тайни:"
+msgid "Here are a few things that might help you fix issues with the Secret Service:"
+msgstr "Ето насоки какво да проверите, за да коригирате проблемите с услугата за тайни:"
 
 #: data/resources/ui/keyring_error_dialog.ui:64
-msgid ""
-"Make sure you have a Secret Service Provider installed, like gnome-keyring."
-msgstr ""
-"Проверете дали е инсталирана програма доставчик на тайни, напр. gnome-"
-"keyring."
+msgid "Make sure you have a Secret Service Provider installed, like gnome-keyring."
+msgstr "Проверете дали е инсталирана програма доставчик на тайни, напр. gnome-keyring."
 
 #: data/resources/ui/keyring_error_dialog.ui:83
 msgid "Check that you have a default keyring and that it is unlocked."
 msgstr "Проверете дали имате стандартен ключодържател и дали е отключен."
 
 #: data/resources/ui/keyring_error_dialog.ui:95
-msgid ""
-"Check the application logs and your distribution’s documentation for more "
-"details."
-msgstr ""
-"Проверете журнала на програмата и документацията на дистрибуцията ви за "
-"повече детайли."
+msgid "Check the application logs and your distribution’s documentation for more details."
+msgstr "Проверете журнала на програмата и документацията на дистрибуцията ви за повече детайли."
 
 #: data/resources/ui/preferences.ui:14
 msgid "General"
@@ -420,8 +375,7 @@ msgstr "Нова паролна фраза"
 msgid "Repeat Passphrase"
 msgstr "Потвърждаване на парола"
 
-#: data/resources/ui/preferences_password_page.ui:79
-#: data/resources/ui/provider_page.ui:73
+#: data/resources/ui/preferences_password_page.ui:79 data/resources/ui/provider_page.ui:73
 msgid "_Reset"
 msgstr "_Зануляване"
 
@@ -441,8 +395,7 @@ msgstr "Стандартна стойност за метода за изчис�
 msgid "Help URL"
 msgstr "Aдрес за помощ"
 
-#: data/resources/ui/providers_dialog.ui:8
-#: data/resources/ui/providers_dialog.ui:19
+#: data/resources/ui/providers_dialog.ui:8 data/resources/ui/providers_dialog.ui:19
 msgid "Providers"
 msgstr "Доставчици"
 
@@ -450,8 +403,7 @@ msgstr "Доставчици"
 msgid "New Provider"
 msgstr "Нов доставчик"
 
-#: data/resources/ui/providers_dialog.ui:36
-#: data/resources/ui/providers_dialog.ui:52 data/resources/ui/window.ui:198
+#: data/resources/ui/providers_dialog.ui:36 data/resources/ui/providers_dialog.ui:52 data/resources/ui/window.ui:198
 #: data/resources/ui/window.ui:218
 msgid "Search"
 msgstr "Търсене"
@@ -460,8 +412,7 @@ msgstr "Търсене"
 msgid "Search…"
 msgstr "Търсене…"
 
-#: data/resources/ui/providers_dialog.ui:93
-#: data/resources/ui/providers_list.ui:38
+#: data/resources/ui/providers_dialog.ui:93 data/resources/ui/providers_list.ui:38
 msgid "No Results"
 msgstr "Нищо не е намерено"
 
@@ -586,15 +537,12 @@ msgstr "Успешно възстановена регистрация"
 msgid "translator-credits"
 msgstr ""
 "Стефан Маринов &lt;<a href='mailto:smarnv@dnl.sk'>smarnv@dnl.sk</a>&gt;\n"
-"twlvnn kraftwerk &lt;<a "
-"href='mailto:kraft_werk@tutanota.com'>kraft_werk@tutanota.com</a>&gt;\n"
+"twlvnn kraftwerk &lt;<a href='mailto:kraft_werk@tutanota.com'>kraft_werk@tutanota.com</a>&gt;\n"
 "\n"
 "\n"
 "Проектът за превод на GNOME има нужда от подкрепа.\n"
-"Научете повече за нас на <a href='https://fsa-bg.org/project/gtp'>уеб сайта</"
-"a> ни.\n"
-"Докладвайте за грешки в превода в <a href='https://fsa-bg.org/project/gtp/"
-"newticket'>съответния раздел</a>."
+"Научете повече за нас на <a href='https://fsa-bg.org/project/gtp'>уеб сайта</a> ни.\n"
+"Докладвайте за грешки в превода в <a href='https://fsa-bg.org/project/gtp/newticket'>съответния раздел</a>."
 
 #: src/application.rs:433 src/widgets/accounts/row.rs:45
 msgid "One-Time password copied"
@@ -728,8 +676,7 @@ msgstr "SHA-256"
 msgid "SHA-512"
 msgstr "SHA-512"
 
-#: src/widgets/accounts/add.rs:277 src/widgets/backup/dialog.rs:445
-#: src/widgets/providers/page.rs:296
+#: src/widgets/accounts/add.rs:277 src/widgets/backup/dialog.rs:445 src/widgets/providers/page.rs:296
 msgid "Image"
 msgstr "Изображение"
 
@@ -785,8 +732,7 @@ msgstr "Неуспешно възстановяване от изображен�
 msgid "Failed to restore from a file"
 msgstr "Неуспешно възстановяване от файл"
 
-#: src/widgets/preferences/password_page.rs:196
-#: src/widgets/preferences/password_page.rs:238
+#: src/widgets/preferences/password_page.rs:196 src/widgets/preferences/password_page.rs:238
 msgid "Wrong Passphrase"
 msgstr "Грешна парола"
 
