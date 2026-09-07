@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Authenticator\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Authenticator/issues\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Authenticator\n"
 "POT-Creation-Date: 2026-02-27 21:52+0000\n"
 "PO-Revision-Date: 2026-03-21 11:27+0100\n"
 "Last-Translator: Марко М. Костић <marko.m.kostic@gmail.com>\n"
@@ -17,42 +17,43 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && "
-"(n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 : "
+"n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Poedit 3.9\n"
 
 #: data/com.belmoussaoui.Authenticator.desktop.in.in:2
-#: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:7 data/resources/ui/window.ui:40
-#: src/application.rs:112 src/main.rs:40
+#: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:7
+#: data/resources/ui/window.ui:40 src/application.rs:112 src/main.rs:40
 msgid "Authenticator"
 msgstr "Потврђивач"
 
 #: data/com.belmoussaoui.Authenticator.desktop.in.in:3
 msgid "Two-Factor Authentication"
-msgstr "Двофакторни потврђивач"
+msgstr "Двофакторска аутентификација"
 
 #: data/com.belmoussaoui.Authenticator.desktop.in.in:4
-#: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:8 src/application.rs:114
+#: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:8
+#: src/application.rs:114
 msgid "Generate two-factor codes"
-msgstr "Створите двофакторне шифре"
+msgstr "Стварање двофакторских кодова"
 
 #: data/com.belmoussaoui.Authenticator.desktop.in.in:9
 msgid "Gnome;GTK;Verification;2FA;Authentication;OTP;TOTP;"
-msgstr "Гном;Гтк;потврђивач;2ФА;идентитет;ОТП;ТОТП;Gnome;GTK;Verification;2FA;Authentication;OTP;TOTP;"
+msgstr "Gnome;GTK;Verification;2FA;Authentication;OTP;TOTP;Гном;ГТК;Потврда;2ФА;Потврђивање идентитета;ОТП;ТОТП;Gnom;Potvrda;Potvrđivanje identiteta;Potvrdjivanje identiteta;Potvrdivanje identiteta;"
 
 #: data/com.belmoussaoui.Authenticator.gschema.xml.in:6
 #: data/com.belmoussaoui.Authenticator.gschema.xml.in:7
 msgid "Default window width"
-msgstr "Основна ширина прозора"
+msgstr "Подразумевана ширина прозора"
 
 #: data/com.belmoussaoui.Authenticator.gschema.xml.in:11
 #: data/com.belmoussaoui.Authenticator.gschema.xml.in:12
 msgid "Default window height"
-msgstr "Основна висина прозора"
+msgstr "Подразумевана висина прозора"
 
 #: data/com.belmoussaoui.Authenticator.gschema.xml.in:16
 msgid "Default window maximized behaviour"
-msgstr "Основно понашање увећаног прозора"
+msgstr "Подразумевано понашање увећаног прозора"
 
 #: data/com.belmoussaoui.Authenticator.gschema.xml.in:21
 msgid "Auto lock"
@@ -60,7 +61,7 @@ msgstr "Самозакључавање"
 
 #: data/com.belmoussaoui.Authenticator.gschema.xml.in:22
 msgid "Whether to auto lock the application or not"
-msgstr "Да ли ће програм сам да се закључа или неће"
+msgstr "Да ли ће се програм самостално закључати"
 
 #: data/com.belmoussaoui.Authenticator.gschema.xml.in:26
 msgid "Auto lock timeout"
@@ -68,35 +69,37 @@ msgstr "Време самозакључавања"
 
 #: data/com.belmoussaoui.Authenticator.gschema.xml.in:27
 msgid "Lock the application on idle after X minutes"
-msgstr "Програм ће се закључати након мировања од Х минута"
+msgstr "Закључајте програм након Н минута мировања"
 
 #: data/com.belmoussaoui.Authenticator.gschema.xml.in:34
 msgid "Download Favicons"
-msgstr "Преузмање Фавиконица"
+msgstr "Преузми фавиконице"
 
 #: data/com.belmoussaoui.Authenticator.gschema.xml.in:35
-msgid "Whether the application should attempt to find an icon for the providers."
-msgstr "Да ли програм треба да покуша да нађе иконицу за достављача."
+msgid ""
+"Whether the application should attempt to find an icon for the providers."
+msgstr "Да ли програм треба да покуша да пронађе иконице за пружаоце."
 
 #: data/com.belmoussaoui.Authenticator.gschema.xml.in:39
 msgid "Download Favicons over metered connections"
-msgstr "Преузимање Фавиконица путем мерених веза"
+msgstr "Преузимање фавиконица путем мерених веза"
 
 #: data/com.belmoussaoui.Authenticator.gschema.xml.in:40
-msgid "Whether the application should download favicons over a metered connection."
-msgstr "Да ли програм треба да преузима фавиконице путем мерених веза."
+msgid ""
+"Whether the application should download favicons over a metered connection."
+msgstr "Да ли програм треба да преузима фавиконице путем мерене везе."
 
 #: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:10
 msgid "Simple application for generating Two-Factor Authentication Codes."
-msgstr "Једноставан програм за стварање шифара за двофакторног потврђивача."
+msgstr "Једноставан програм за стварање шифара за двофакторско потврђивање идентитета."
 
 #: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:11
 msgid "Features:"
-msgstr "Одлике:"
+msgstr "Могућности:"
 
 #: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:13
 msgid "Time-based/Counter-based/Steam methods support"
-msgstr "Подршка метода занованих на времену/бројачу/Steam-у"
+msgstr "Подршка за начине засноване на времену/бројачу/Стиму"
 
 #: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:14
 msgid "SHA-1/SHA-256/SHA-512 algorithms support"
@@ -104,7 +107,7 @@ msgstr "Подршка алгоритама SHA-1/SHA-256/SHA-512"
 
 #: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:15
 msgid "QR code scanner using a camera or from a screenshot"
-msgstr "Скенирање КР кода коришћењем фото-апарата или снимка екрана"
+msgstr "Скенер КР кода који користи камеру или снимак екрана"
 
 #: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:16
 msgid "Lock the application with a password"
@@ -112,44 +115,48 @@ msgstr "Закључавање програма лозинком"
 
 #: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:17
 msgid "Beautiful UI"
-msgstr "Лепо корисничко сучеље"
+msgstr "Лепо корисничко прочеље"
 
 #: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:18
 msgid "GNOME Shell search provider"
-msgstr "Достављач претраге Гномове шкољке"
+msgstr "Пружалац претраге Гномове шкољке"
 
 #: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:19
 msgid ""
-"Backup/Restore from/into known applications like FreeOTP+, Aegis (encrypted / plain-text), andOTP, "
-"Google Authenticator"
-msgstr ""
-"Прављење/враћање резерве из/у познате програме као што је „FreeOTP+“, „Aegis“ (шифровано / обичан "
-"текст), „andOTP“, „Google Authenticator“"
+"Backup/Restore from/into known applications like FreeOTP+, Aegis "
+"(encrypted / plain-text), andOTP, Google Authenticator"
+msgstr "Прављење/враћање резерве из/у познате програме као што су „ФриОТП+“, „Аегис“ (шифровано / обичан текст), „андОТП“ и „Гугл потврђивач“"
 
 #: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:25
 msgid "Main Window"
 msgstr "Главни прозор"
 
-#: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:29 data/resources/ui/account_add.ui:30
-#: data/resources/ui/account_add.ui:47
+#: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:29
+#: data/resources/ui/account_add.ui:30 data/resources/ui/account_add.ui:47
 msgid "Add a New Account"
 msgstr "Додајте нови налог"
 
 #: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:33
 msgid "Add a New Provider"
-msgstr "Додајте новог достављача"
+msgstr "Додај новог пружаоца"
 
 #: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:37
 msgid "Account Details"
-msgstr "Детаљи о налогу"
+msgstr "Појединости о налогу"
 
 #: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:41
 msgid "Backup/Restore formats support"
 msgstr "Подршка формата прављења/враћања резерви"
 
+#. developer_name tag deprecated with Appstream 1.0
+#: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:342
+#: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:344
+msgid "Bilal Elmoussaoui"
+msgstr "Билал Елмусауи"
+
 #: data/resources/ui/account_add.ui:6 src/widgets/backup/dialog.rs:276
 msgid "_Camera"
-msgstr "_Фото-апарат"
+msgstr "_Камера"
 
 #: data/resources/ui/account_add.ui:10 src/widgets/backup/dialog.rs:280
 msgid "_Screenshot"
@@ -171,59 +178,70 @@ msgstr "_Додај"
 msgid "Scan QR Code"
 msgstr "Скенирај КР код"
 
-#: data/resources/ui/account_add.ui:113 data/resources/ui/account_details_page.ui:96
-#: data/resources/ui/provider_page.ui:22 data/resources/ui/providers_dialog.ui:108
+#: data/resources/ui/account_add.ui:113
+#: data/resources/ui/account_details_page.ui:96
+#: data/resources/ui/provider_page.ui:22
+#: data/resources/ui/providers_dialog.ui:108
 msgid "Provider"
-msgstr "Достављач"
+msgstr "Пружалац"
 
 #: data/resources/ui/account_add.ui:114
 msgid "Token issuer"
-msgstr "Издавач скупине"
+msgstr "Издавач жетона"
 
-#: data/resources/ui/account_add.ui:128 data/resources/ui/account_details_page.ui:91
+#: data/resources/ui/account_add.ui:128
+#: data/resources/ui/account_details_page.ui:91
 msgid "Account"
 msgstr "Налог"
 
 #: data/resources/ui/account_add.ui:134
 msgid "Token"
-msgstr "Скупина"
+msgstr "Жетон"
 
-#: data/resources/ui/account_add.ui:140 data/resources/ui/account_details_page.ui:135
+#: data/resources/ui/account_add.ui:140
+#: data/resources/ui/account_details_page.ui:135
 #: data/resources/ui/provider_page.ui:158
 msgid "Counter"
 msgstr "Бројач"
 
-#: data/resources/ui/account_add.ui:158 data/resources/ui/account_details_page.ui:119
+#: data/resources/ui/account_add.ui:158
+#: data/resources/ui/account_details_page.ui:119
 #: data/resources/ui/provider_page.ui:133
 msgid "Algorithm"
 msgstr "Алгоритам"
 
-#: data/resources/ui/account_add.ui:166 data/resources/ui/account_details_page.ui:127
+#: data/resources/ui/account_add.ui:166
+#: data/resources/ui/account_details_page.ui:127
 #: data/resources/ui/provider_page.ui:118
 msgid "Computing Method"
-msgstr "Метода израчунавања"
+msgstr "Начин израчунавања"
 
-#: data/resources/ui/account_add.ui:174 data/resources/ui/account_details_page.ui:144
+#: data/resources/ui/account_add.ui:174
+#: data/resources/ui/account_details_page.ui:144
 #: data/resources/ui/provider_page.ui:149
 msgid "Period"
 msgstr "Период"
 
-#: data/resources/ui/account_add.ui:175 data/resources/ui/account_details_page.ui:145
+#: data/resources/ui/account_add.ui:175
+#: data/resources/ui/account_details_page.ui:145
 #: data/resources/ui/provider_page.ui:150
 msgid "Duration in seconds until the next password update"
-msgstr "Трајање у секундама до следећег освежавања лозинке"
+msgstr "Трајање у секундама до следећег ажурирања лозинке"
 
-#: data/resources/ui/account_add.ui:183 data/resources/ui/account_details_page.ui:153
+#: data/resources/ui/account_add.ui:183
+#: data/resources/ui/account_details_page.ui:153
 #: data/resources/ui/provider_page.ui:167
 msgid "Digits"
 msgstr "Цифара"
 
-#: data/resources/ui/account_add.ui:184 data/resources/ui/account_details_page.ui:154
+#: data/resources/ui/account_add.ui:184
+#: data/resources/ui/account_details_page.ui:154
 #: data/resources/ui/provider_page.ui:168
 msgid "Length of the generated code"
 msgstr "Дужина створене шифре"
 
-#: data/resources/ui/account_add.ui:192 data/resources/ui/account_details_page.ui:162
+#: data/resources/ui/account_add.ui:192
+#: data/resources/ui/account_details_page.ui:162
 #: data/resources/ui/provider_page.ui:112
 msgid "Website"
 msgstr "Веб страница"
@@ -232,21 +250,23 @@ msgstr "Веб страница"
 msgid "How to Set Up"
 msgstr "Како поставити"
 
-#: data/resources/ui/account_add.ui:217 data/resources/ui/preferences_camera_page.ui:4
+#: data/resources/ui/account_add.ui:217
+#: data/resources/ui/preferences_camera_page.ui:4
 msgid "Camera"
 msgstr "Камера"
 
 #: data/resources/ui/account_add.ui:229
-#| msgid "New Provider"
 msgid "Create Provider"
-msgstr "Направи достављача"
+msgstr "Направи пружаоца"
 
-#: data/resources/ui/account_details_page.ui:56 data/resources/ui/preferences_password_page.ui:17
+#: data/resources/ui/account_details_page.ui:56
+#: data/resources/ui/preferences_password_page.ui:17
 #: data/resources/ui/provider_page.ui:29
 msgid "_Save"
 msgstr "_Сачувај"
 
-#: data/resources/ui/account_details_page.ui:67 data/resources/ui/provider_page.ui:185
+#: data/resources/ui/account_details_page.ui:67
+#: data/resources/ui/provider_page.ui:185
 msgid "_Delete"
 msgstr "_Обриши"
 
@@ -260,28 +280,27 @@ msgstr "Повећај бројач"
 
 #: data/resources/ui/account_row.ui:34
 msgid "Copy PIN to clipboard"
-msgstr "Умножи ПИН у оставу"
+msgstr "Копирај ПИН у оставу"
 
 #: data/resources/ui/account_row.ui:43
 msgid "Account details"
-msgstr "Детаљи о налогу"
+msgstr "Појединости о налогу"
 
 #: data/resources/ui/backup_dialog.ui:4 data/resources/ui/backup_dialog.ui:8
-#| msgid "Backup/Restore"
 msgid "Backup & Restore"
-msgstr "Резерва и враћање"
+msgstr "Резервна копија и враћање"
 
 #: data/resources/ui/backup_dialog.ui:11 src/widgets/backup/dialog.rs:508
 msgid "Backup"
-msgstr "Направи резерву"
+msgstr "Направи резервну копију"
 
 #: data/resources/ui/backup_dialog.ui:16 src/widgets/backup/dialog.rs:516
 msgid "Restore"
-msgstr "Врати резерву"
+msgstr "Врати"
 
 #: data/resources/ui/camera.ui:35
 msgid "No Camera Found"
-msgstr "Нисам нашао камерицу"
+msgstr "Није пронађена ниједна камера"
 
 #: data/resources/ui/camera.ui:38
 msgid "_From a Screenshot"
@@ -293,25 +312,33 @@ msgstr "Грешка услуге тајни"
 
 #: data/resources/ui/keyring_error_dialog.ui:35
 msgid ""
-"Authenticator relies on a Secret Service Provider to manage your sensitive session information and "
-"an error occurred while we were trying to store or get your session."
-msgstr "Потврђивач се ослања на достављача услуге тајни како би управљао вашим осетљивим подацима сесије, а дошло је до грешке приликом покушаја смештања или добављања ваше сесије."
+"Authenticator relies on a Secret Service Provider to manage your sensitive "
+"session information and an error occurred while we were trying to store or "
+"get your session."
+msgstr "Потврђивач се ослања на пружаоца услуге тајни како би управљао вашим осетљивим подацима сесије, а дошло је до грешке приликом покушаја смештања или преузимања ваше сесије."
 
 #: data/resources/ui/keyring_error_dialog.ui:47
-msgid "Here are a few things that might help you fix issues with the Secret Service:"
-msgstr "Ево неколико ствари које вам могу помоћи да решите проблеме са услугом тајни:"
+msgid ""
+"Here are a few things that might help you fix issues with the Secret Service:"
+msgstr ""
+"Ево неколико ствари које вам могу помоћи да решите проблеме са услугом тајни:"
 
 #: data/resources/ui/keyring_error_dialog.ui:64
-msgid "Make sure you have a Secret Service Provider installed, like gnome-keyring."
-msgstr "Проверите да ли имате инсталираног достављача услуге тајни, као што је „gnome-keyring“."
+msgid ""
+"Make sure you have a Secret Service Provider installed, like gnome-keyring."
+msgstr "Проверите да ли имате инсталираног пружаоца услуге тајни, као што је „gnome-keyring“."
 
 #: data/resources/ui/keyring_error_dialog.ui:83
 msgid "Check that you have a default keyring and that it is unlocked."
 msgstr "Проверите да ли имате подразумевани привезак и да ли је откључан."
 
 #: data/resources/ui/keyring_error_dialog.ui:95
-msgid "Check the application logs and your distribution’s documentation for more details."
-msgstr "Проверите дневнике програма и документацију ваше дистрибуције за више појединости."
+msgid ""
+"Check the application logs and your distribution’s documentation for more "
+"details."
+msgstr ""
+"Проверите дневнике програма и документацију ваше дистрибуције за више "
+"појединости."
 
 #: data/resources/ui/preferences.ui:14
 msgid "General"
@@ -331,7 +358,7 @@ msgstr "Поставите лозинку за закључавање прогр
 
 #: data/resources/ui/preferences.ui:35
 msgid "_Auto Lock the Application"
-msgstr "_Сам закључај програм"
+msgstr "_Самозакључавање програма"
 
 #: data/resources/ui/preferences.ui:37
 msgid "Whether to automatically lock the application"
@@ -351,11 +378,11 @@ msgstr "Мрежа"
 
 #: data/resources/ui/preferences.ui:60
 msgid "_Download Favicons"
-msgstr "_Преузми Фавиконице"
+msgstr "_Преузми фавиконице"
 
 #: data/resources/ui/preferences.ui:62
 msgid "Automatically attempt fetching a website icon"
-msgstr "Самостално ће покушати да довуче иконицу веб сајта"
+msgstr "Самостално ће покушати да преузме иконицу веб странице"
 
 #: data/resources/ui/preferences.ui:67
 msgid "_Metered Connection"
@@ -363,10 +390,9 @@ msgstr "_Мерена веза"
 
 #: data/resources/ui/preferences.ui:69
 msgid "Fetch a website icon on a metered connection"
-msgstr "Преузеће иконицу веб сајта путем мерене везе"
+msgstr "Преузимај иконицу веб странице путем мерене везе"
 
 #: data/resources/ui/preferences_password_page.ui:4
-#| msgid "Wrong Password"
 msgid "Create Password"
 msgstr "Направи лозинку"
 
@@ -390,9 +416,10 @@ msgstr "Нова лозинка"
 msgid "Repeat Passphrase"
 msgstr "Поновите лозинку"
 
-#: data/resources/ui/preferences_password_page.ui:79 data/resources/ui/provider_page.ui:73
+#: data/resources/ui/preferences_password_page.ui:79
+#: data/resources/ui/provider_page.ui:73
 msgid "_Reset"
-msgstr "_Поново постави"
+msgstr "В_рати"
 
 #: data/resources/ui/provider_page.ui:83
 msgid "Select a _File"
@@ -404,48 +431,51 @@ msgstr "Назив"
 
 #: data/resources/ui/provider_page.ui:159
 msgid "The by default value for counter-based computing method"
-msgstr "Основна вредност за методу израчунавања засновану на бројачу"
+msgstr "Подразумевана вредност за начин израчунавања на основу бројача"
 
 #: data/resources/ui/provider_page.ui:177
 msgid "Help URL"
 msgstr "Адреса за помоћ"
 
-#: data/resources/ui/providers_dialog.ui:8 data/resources/ui/providers_dialog.ui:19
+#: data/resources/ui/providers_dialog.ui:8
+#: data/resources/ui/providers_dialog.ui:19
 msgid "Providers"
-msgstr "Достављачи"
+msgstr "Пружаоци"
 
 #: data/resources/ui/providers_dialog.ui:29 src/widgets/providers/page.rs:213
 msgid "New Provider"
-msgstr "Нови достављач"
+msgstr "Нови пружалац"
 
-#: data/resources/ui/providers_dialog.ui:36 data/resources/ui/providers_dialog.ui:52
-#: data/resources/ui/window.ui:198 data/resources/ui/window.ui:218
+#: data/resources/ui/providers_dialog.ui:36
+#: data/resources/ui/providers_dialog.ui:52 data/resources/ui/window.ui:198
+#: data/resources/ui/window.ui:218
 msgid "Search"
 msgstr "Претражи"
 
 #: data/resources/ui/providers_dialog.ui:47 data/resources/ui/window.ui:213
 msgid "Search…"
-msgstr "Тражи…"
+msgstr "Претражи…"
 
-#: data/resources/ui/providers_dialog.ui:93 data/resources/ui/providers_list.ui:38
+#: data/resources/ui/providers_dialog.ui:93
+#: data/resources/ui/providers_list.ui:38
 msgid "No Results"
 msgstr "Нема резултата"
 
 #: data/resources/ui/providers_dialog.ui:94
 msgid "No providers matching the query were found."
-msgstr "Нисам нашао достављаче који одговарају упиту."
+msgstr "Нисам нашао пружаоце који одговарају упиту."
 
 #: data/resources/ui/providers_dialog.ui:139
 msgid "No Provider Selected"
-msgstr "Није изабран достављач"
+msgstr "Није изабран пружалац"
 
 #: data/resources/ui/providers_dialog.ui:140
 msgid "Select a provider or create a new one"
-msgstr "Изаберите достављача или направите новог"
+msgstr "Изабери пружаоца или направи новог"
 
 #: data/resources/ui/providers_list.ui:39
 msgid "No accounts or providers matching the query were found."
-msgstr "Нисам нашао достављаче или налоге који одговарају упиту."
+msgstr "Нисам пронашао налоге или пружаоце који одговарају упиту."
 
 #: data/resources/ui/shortcuts.ui:6
 msgctxt "shortcut window"
@@ -460,7 +490,7 @@ msgstr "Пречице тастатуре"
 #: data/resources/ui/shortcuts.ui:15
 msgctxt "shortcut window"
 msgid "Lock"
-msgstr "Закључајте"
+msgstr "Закључај"
 
 #: data/resources/ui/shortcuts.ui:21
 msgctxt "shortcut window"
@@ -470,7 +500,7 @@ msgstr "Поставке"
 #: data/resources/ui/shortcuts.ui:27
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "Изађите"
+msgstr "Изађи"
 
 #: data/resources/ui/shortcuts.ui:35
 msgctxt "shortcut window"
@@ -485,12 +515,12 @@ msgstr "Нови налог"
 #: data/resources/ui/shortcuts.ui:44
 msgctxt "shortcut window"
 msgid "Search"
-msgstr "Претрага"
+msgstr "Претражи"
 
 #: data/resources/ui/shortcuts.ui:50
 msgctxt "shortcut window"
 msgid "Show Providers List"
-msgstr "Прикажите списак достављача"
+msgstr "Прикажи списак пружалаца"
 
 #: data/resources/ui/window.ui:6
 msgid "_Lock the Application"
@@ -505,17 +535,16 @@ msgid "_Preferences"
 msgstr "_Поставке"
 
 #: data/resources/ui/window.ui:20
-#| msgid "Backup/Restore"
 msgid "_Backup & Restore"
 msgstr "_Резерва и враћање"
 
 #: data/resources/ui/window.ui:26
 msgid "_Keyboard Shortcuts"
-msgstr "Пречице _тастатуре"
+msgstr "_Пречице тастатуре"
 
 #: data/resources/ui/window.ui:30
 msgid "_About Authenticator"
-msgstr "_О програму"
+msgstr "_О Потврђивачу"
 
 #: data/resources/ui/window.ui:70
 msgid "Authenticator is Locked"
@@ -563,7 +592,7 @@ msgstr "Једнократна лозинка је умножена"
 
 #: src/application.rs:434
 msgid "Password was copied successfully"
-msgstr "Лозинка је успешно умножена"
+msgstr "Лозинка је успешно копирана"
 
 #. Translators: This is for making a backup for the aegis Android app.
 #. Translators: This is for restoring a backup from the aegis Android app.
@@ -632,7 +661,7 @@ msgstr "FreeOTP+"
 
 #: src/backup/freeotp_json.rs:91
 msgid "From a plain-text JSON file, compatible with FreeOTP+"
-msgstr "Из ЈСОН датотеке, сагласне са „FreeOTP+“"
+msgstr "Из ЈСОН датотеке у обичном тексту, усаглашене са „FreeOTP+“"
 
 #: src/backup/google.rs:19
 msgid "Google Authenticator"
@@ -675,7 +704,7 @@ msgstr "На основу времена"
 #. Translators: Steam refers to the gaming application by Valve.
 #: src/models/algorithm.rs:63
 msgid "Steam"
-msgstr "Steam"
+msgstr "Стим"
 
 #: src/models/algorithm.rs:125
 msgid "SHA-1"
@@ -687,9 +716,10 @@ msgstr "SHA-256"
 
 #: src/models/algorithm.rs:127
 msgid "SHA-512"
-msgstr "SHA-512"
+msgstr "СХА‑512"
 
-#: src/widgets/accounts/add.rs:277 src/widgets/backup/dialog.rs:445 src/widgets/providers/page.rs:296
+#: src/widgets/accounts/add.rs:277 src/widgets/backup/dialog.rs:445
+#: src/widgets/providers/page.rs:296
 msgid "Image"
 msgstr "Слика"
 
@@ -699,11 +729,11 @@ msgstr "Изабери КР код"
 
 #: src/widgets/accounts/add.rs:303
 msgid "Invalid Token"
-msgstr "Неисправна скупина"
+msgstr "Неважећи жетон"
 
 #: src/widgets/accounts/details.rs:124
 msgid "Are you sure you want to delete the account?"
-msgstr "Да ли сте сигурни да желите да обришете налог?"
+msgstr "Желите ли заиста да обришете налог?"
 
 #: src/widgets/accounts/details.rs:125
 msgid "This action is irreversible"
@@ -727,48 +757,49 @@ msgstr "Изабери датотеку"
 
 #: src/widgets/backup/dialog.rs:207
 msgid "Failed to create a backup"
-msgstr "Нисам успео да направим резервну копију"
+msgstr "Не могу да направим резервну копију"
 
 #: src/widgets/backup/dialog.rs:329
 msgid "Failed to restore from camera"
-msgstr "Није успело враћање са камере"
+msgstr "Не могу да вратим са камере"
 
 #: src/widgets/backup/dialog.rs:354
 msgid "Failed to restore from a screenshot"
-msgstr "Нисам успео да повратим са снимка екрана"
+msgstr "Не могу да вратим са снимка екрана"
 
 #: src/widgets/backup/dialog.rs:374
 msgid "Failed to restore from an image"
-msgstr "Није успело враћање из слике"
+msgstr "Не могу да вратим из слике"
 
 #: src/widgets/backup/dialog.rs:398
 msgid "Failed to restore from a file"
-msgstr "Није успело враћање из датотеке"
+msgstr "Не могу да вратим из датотеке"
 
-#: src/widgets/preferences/password_page.rs:196 src/widgets/preferences/password_page.rs:238
+#: src/widgets/preferences/password_page.rs:196
+#: src/widgets/preferences/password_page.rs:238
 msgid "Wrong Passphrase"
 msgstr "Погрешна лозинка"
 
 #: src/widgets/providers/dialog.rs:262
 msgid "Provider created successfully"
-msgstr "Достављач је успешно направљен"
+msgstr "Пружалац је успешно направљен"
 
 #: src/widgets/providers/dialog.rs:272
 msgid "Provider updated successfully"
-msgstr "Достављач је успешно ажуриран"
+msgstr "Пружалац је успешно ажуриран"
 
 #: src/widgets/providers/dialog.rs:288
 msgid "Provider removed successfully"
-msgstr "Достављач је успешно уклоњен"
+msgstr "Пружалац је успешно уклоњен"
 
 #: src/widgets/providers/page.rs:188
 #, rust-format
 msgid "Editing Provider: {}"
-msgstr "Уређујем достављача: {}"
+msgstr "Уређивање пружаоца: {}"
 
 #: src/widgets/providers/page.rs:329
 msgid "The provider has accounts assigned to it, please remove them first"
-msgstr "Достављач има налоге њему додељене, прво их уклоните"
+msgstr "Пружалац има додељене налоге, прво их уклоните"
 
 #: src/widgets/window.rs:115
 msgid "Wrong Password"
