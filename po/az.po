@@ -1,38 +1,40 @@
 # Azerbaijani translation for authenticator.
-# Copyright (C) 2025 authenticator's COPYRIGHT HOLDER
+# Copyright (C) 2026 authenticator's COPYRIGHT HOLDER
 # This file is distributed under the same license as the authenticator package.
-# Ramal Rəhimov <jhonaluman@gmail.com>, 2025.
+# Ramal Rəhimov <jhoaluman@gmail.com>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: authenticator master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Authenticator/issues\n"
-"POT-Creation-Date: 2025-05-10 11:11+0000\n"
-"PO-Revision-Date: 2025-05-10 11:11+0000\n"
-"Last-Translator: Ramal Rəhimov <jhonaluman@gmail.com>\n"
-"Language-Team: Azerbaijani <az@li.org>\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Authenticator\n"
+"POT-Creation-Date: 2026-02-27 21:52+0000\n"
+"PO-Revision-Date: 2026-09-20 17:40+0300\n"
+"Last-Translator: Ramal Rəhimov <jhoaluman@gmail.com>\n"
+"Language-Team: Azerbaijani <contact@azelinux.com>\n"
 "Language: az\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Google Antigravity / Gtranslator\n"
 
-#: data/com.belmoussaoui.Authenticator.desktop.in.in:3
+#: data/com.belmoussaoui.Authenticator.desktop.in.in:2
 #: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:7
 #: data/resources/ui/window.ui:40 src/application.rs:112 src/main.rs:40
 msgid "Authenticator"
 msgstr "Autentifikator"
 
-#: data/com.belmoussaoui.Authenticator.desktop.in.in:4
+#: data/com.belmoussaoui.Authenticator.desktop.in.in:3
 msgid "Two-Factor Authentication"
 msgstr "İki Faktorlu Doğrulama"
 
-#: data/com.belmoussaoui.Authenticator.desktop.in.in:5
+#: data/com.belmoussaoui.Authenticator.desktop.in.in:4
 #: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:8
 #: src/application.rs:114
 msgid "Generate two-factor codes"
 msgstr "İki faktorlu kodlar yaradın"
 
-#: data/com.belmoussaoui.Authenticator.desktop.in.in:10
+#: data/com.belmoussaoui.Authenticator.desktop.in.in:9
 msgid "Gnome;GTK;Verification;2FA;Authentication;OTP;TOTP;"
 msgstr "Gnome;GTK;Doğrulama;2FA;Autentifikasiya;OTP;TOTP;"
 
@@ -118,11 +120,11 @@ msgstr "GNOME Shell axtarış təminatçısı"
 
 #: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:19
 msgid ""
-"Backup/Restore from/into known applications like FreeOTP+, Aegis "
-"(encrypted / plain-text), andOTP, Google Authenticator"
+"Backup/Restore from/into known applications like FreeOTP+, Aegis (encrypted "
+"/ plain-text), andOTP, Google Authenticator"
 msgstr ""
-"FreeOTP+, Aegis (şifrələnmiş / açıq mətn), andOTP, Google Authenticator kimi "
-"tanınmış tətbiqlərdən Yedəkləmə/Bərpa"
+"FreeOTP+, Aegis (şifrələnmiş / açıq mətn), andOTP, Google Authenticator kimi"
+" tanınmış tətbiqlərdən Yedəkləmə/Bərpa"
 
 #: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:25
 msgid "Main Window"
@@ -145,15 +147,21 @@ msgstr "Hesab Təfərrüatları"
 msgid "Backup/Restore formats support"
 msgstr "Yedəkləmə/Bərpa formatları dəstəyi"
 
-#: data/resources/ui/account_add.ui:6 src/widgets/backup/dialog.rs:274
+#. developer_name tag deprecated with Appstream 1.0
+#: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:342
+#: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:344
+msgid "Bilal Elmoussaoui"
+msgstr "Bilal Elmoussaoui"
+
+#: data/resources/ui/account_add.ui:6 src/widgets/backup/dialog.rs:276
 msgid "_Camera"
 msgstr "_Kamera"
 
-#: data/resources/ui/account_add.ui:10 src/widgets/backup/dialog.rs:278
+#: data/resources/ui/account_add.ui:10 src/widgets/backup/dialog.rs:280
 msgid "_Screenshot"
 msgstr "_Ekran Görüntüsü"
 
-#: data/resources/ui/account_add.ui:14 src/widgets/backup/dialog.rs:283
+#: data/resources/ui/account_add.ui:14 src/widgets/backup/dialog.rs:285
 msgid "_QR Code Image"
 msgstr "_QR Kod Şəkli"
 
@@ -165,7 +173,7 @@ msgstr "_Ləğv Et"
 msgid "_Add"
 msgstr "_Əlavə Et"
 
-#: data/resources/ui/account_add.ui:75 src/widgets/backup/dialog.rs:269
+#: data/resources/ui/account_add.ui:75 src/widgets/backup/dialog.rs:271
 msgid "Scan QR Code"
 msgstr "QR Kodu Skan Et"
 
@@ -254,7 +262,7 @@ msgstr "Təminatçı Yarat"
 #: data/resources/ui/preferences_password_page.ui:17
 #: data/resources/ui/provider_page.ui:29
 msgid "_Save"
-msgstr "_Saxla"
+msgstr "_Yadda saxla"
 
 #: data/resources/ui/account_details_page.ui:67
 #: data/resources/ui/provider_page.ui:185
@@ -281,11 +289,11 @@ msgstr "Hesab təfərrüatları"
 msgid "Backup & Restore"
 msgstr "Yedəkləmə və Bərpa"
 
-#: data/resources/ui/backup_dialog.ui:11 src/widgets/backup/dialog.rs:506
+#: data/resources/ui/backup_dialog.ui:11 src/widgets/backup/dialog.rs:508
 msgid "Backup"
 msgstr "Yedəkləmə"
 
-#: data/resources/ui/backup_dialog.ui:16 src/widgets/backup/dialog.rs:514
+#: data/resources/ui/backup_dialog.ui:16 src/widgets/backup/dialog.rs:516
 msgid "Restore"
 msgstr "Bərpa"
 
@@ -307,21 +315,24 @@ msgid ""
 "session information and an error occurred while we were trying to store or "
 "get your session."
 msgstr ""
-"Autentifikator, həssas sessiya məlumatlarınızı idarə etmək üçün Gizli Xidmət "
-"Təminatçısına güvənir və sessiyanızı saxlamağa və ya əldə etməyə çalışarkən "
-"xəta baş verdi."
+"Autentifikator, həssas sessiya məlumatlarınızı idarə etmək üçün Gizli Xidmət"
+" Təminatçısına güvənir və sessiyanızı saxlamağa və ya əldə etməyə çalışarkən"
+" xəta baş verdi."
 
 #: data/resources/ui/keyring_error_dialog.ui:47
 msgid ""
-"Here are a few things that might help you fix issues with the Secret Service:"
+"Here are a few things that might help you fix issues with the Secret "
+"Service:"
 msgstr ""
-"Gizli Xidmət ilə bağlı problemləri həll etməyə kömək edə biləcək bir neçə şey:"
+"Gizli Xidmət ilə bağlı problemləri həll etməyə kömək edə biləcək bir neçə "
+"şey:"
 
 #: data/resources/ui/keyring_error_dialog.ui:64
 msgid ""
 "Make sure you have a Secret Service Provider installed, like gnome-keyring."
 msgstr ""
-"Gnome-keyring kimi bir Gizli Xidmət Təminatçısının quraşdırıldığından əmin olun."
+"Gnome-keyring kimi bir Gizli Xidmət Təminatçısının quraşdırıldığından əmin "
+"olun."
 
 #: data/resources/ui/keyring_error_dialog.ui:83
 msgid "Check that you have a default keyring and that it is unlocked."
@@ -333,7 +344,8 @@ msgid ""
 "Check the application logs and your distribution’s documentation for more "
 "details."
 msgstr ""
-"Tətbiq jurnallarını və paylamanızın sənədləşməsini daha ətraflı məlumat üçün yoxlayın."
+"Tətbiq jurnallarını və paylamanızın sənədləşməsini daha ətraflı məlumat üçün"
+" yoxlayın."
 
 #: data/resources/ui/preferences.ui:14
 msgid "General"
@@ -397,7 +409,8 @@ msgstr "Parol İfadəsi Quraşdır"
 
 #: data/resources/ui/preferences_password_page.ui:29
 msgid "Authenticator will start locked after a passphrase is set."
-msgstr "Parol ifadəsi quraşdırıldıqdan sonra Autentifikator kilidli başlayacaq."
+msgstr ""
+"Parol ifadəsi quraşdırıldıqdan sonra Autentifikator kilidli başlayacaq."
 
 #: data/resources/ui/preferences_password_page.ui:53
 msgid "Current Passphrase"
@@ -437,7 +450,7 @@ msgstr "Kömək URL-i"
 msgid "Providers"
 msgstr "Təminatçılar"
 
-#: data/resources/ui/providers_dialog.ui:29 src/widgets/providers/page.rs:208
+#: data/resources/ui/providers_dialog.ui:29 src/widgets/providers/page.rs:213
 msgid "New Provider"
 msgstr "Yeni Təminatçı"
 
@@ -472,47 +485,47 @@ msgstr "Təminatçı seçin və ya yenisini yaradın"
 msgid "No accounts or providers matching the query were found."
 msgstr "Sorğuya uyğun hesablar və ya təminatçılar tapılmadı."
 
-#: data/resources/ui/shortcuts.ui:11
+#: data/resources/ui/shortcuts.ui:6
 msgctxt "shortcut window"
 msgid "General"
 msgstr "Ümumi"
 
-#: data/resources/ui/shortcuts.ui:14
+#: data/resources/ui/shortcuts.ui:9
 msgctxt "shortcut window"
 msgid "Keyboard Shortcuts"
 msgstr "Klaviatura Qısayolları"
 
-#: data/resources/ui/shortcuts.ui:20
+#: data/resources/ui/shortcuts.ui:15
 msgctxt "shortcut window"
 msgid "Lock"
 msgstr "Kilidlə"
 
-#: data/resources/ui/shortcuts.ui:26
+#: data/resources/ui/shortcuts.ui:21
 msgctxt "shortcut window"
 msgid "Preferences"
-msgstr "Tərcihlər"
+msgstr "Tənzimləmələr"
 
-#: data/resources/ui/shortcuts.ui:32
+#: data/resources/ui/shortcuts.ui:27
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Çıx"
 
-#: data/resources/ui/shortcuts.ui:40
+#: data/resources/ui/shortcuts.ui:35
 msgctxt "shortcut window"
 msgid "Accounts"
 msgstr "Hesablar"
 
-#: data/resources/ui/shortcuts.ui:43
+#: data/resources/ui/shortcuts.ui:38
 msgctxt "shortcut window"
 msgid "New Account"
 msgstr "Yeni Hesab"
 
-#: data/resources/ui/shortcuts.ui:49
+#: data/resources/ui/shortcuts.ui:44
 msgctxt "shortcut window"
 msgid "Search"
 msgstr "Axtar"
 
-#: data/resources/ui/shortcuts.ui:55
+#: data/resources/ui/shortcuts.ui:50
 msgctxt "shortcut window"
 msgid "Show Providers List"
 msgstr "Təminatçılar Siyahısını Göstər"
@@ -527,7 +540,7 @@ msgstr "Tə_minatçılar"
 
 #: data/resources/ui/window.ui:16
 msgid "_Preferences"
-msgstr "_Tərcihlər"
+msgstr "_Tənzimləmələr"
 
 #: data/resources/ui/window.ui:20
 msgid "_Backup & Restore"
@@ -575,13 +588,13 @@ msgstr "Hesablar uğurla bərpa edildi"
 
 #: src/application.rs:123
 msgid "translator-credits"
-msgstr "Ramal Rəhimov <jhonaluman@gmail.com>"
+msgstr "Ramal Rəhimov <jhoaluman@gmail.com>"
 
-#: src/application.rs:434 src/widgets/accounts/row.rs:45
+#: src/application.rs:433 src/widgets/accounts/row.rs:45
 msgid "One-Time password copied"
 msgstr "Bir dəfəlik parol kopyalandı"
 
-#: src/application.rs:435
+#: src/application.rs:434
 msgid "Password was copied successfully"
 msgstr "Parol uğurla kopyalandı"
 
@@ -600,20 +613,21 @@ msgid "From a JSON file containing plain-text or encrypted fields"
 msgstr "Açıq mətn və ya şifrələnmiş sahələri ehtiva edən JSON faylından"
 
 #. Translators: This is for making a backup for the andOTP Android app.
-#: src/backup/andotp.rs:79
+#: src/backup/andotp.rs:109
 msgid "a_ndOTP"
 msgstr "a_ndOTP"
 
-#: src/backup/andotp.rs:83
+#: src/backup/andotp.rs:113
 msgid "Into a plain-text JSON file"
 msgstr "Açıq mətn JSON faylına"
 
 #. Translators: This is for restoring a backup from the andOTP Android app.
-#: src/backup/andotp.rs:127
+#: src/backup/andotp.rs:157
 msgid "an_dOTP"
 msgstr "an_dOTP"
 
-#: src/backup/andotp.rs:131 src/backup/bitwarden.rs:124 src/backup/legacy.rs:45
+#: src/backup/andotp.rs:161 src/backup/bitwarden.rs:124
+#: src/backup/legacy.rs:45
 msgid "From a plain-text JSON file"
 msgstr "Açıq mətn JSON faylından"
 
@@ -676,6 +690,15 @@ msgstr "Raivo OTP"
 msgid "From a ZIP export generated by Raivo OTP"
 msgstr "Raivo OTP tərəfindən yaradılmış ZIP eksportundan"
 
+#: src/backup/yandex.rs:19
+msgid "Yandex ID"
+msgstr "Yandex ID"
+
+#: src/backup/yandex.rs:23
+#| msgid "From a plain-text file, compatible with FreeOTP+"
+msgid "From a plain-text file generated by Yandex ID"
+msgstr "Yandex ID tərəfindən yaradılmış açıq mətn faylından"
+
 #: src/models/algorithm.rs:60
 msgid "Counter-based"
 msgstr "Sayğaca əsaslanan"
@@ -701,89 +724,89 @@ msgstr "SHA-256"
 msgid "SHA-512"
 msgstr "SHA-512"
 
-#: src/widgets/accounts/add.rs:270 src/widgets/backup/dialog.rs:443
-#: src/widgets/providers/page.rs:291
+#: src/widgets/accounts/add.rs:277 src/widgets/backup/dialog.rs:445
+#: src/widgets/providers/page.rs:296
 msgid "Image"
 msgstr "Şəkil"
 
-#: src/widgets/accounts/add.rs:278 src/widgets/backup/dialog.rs:451
+#: src/widgets/accounts/add.rs:285 src/widgets/backup/dialog.rs:453
 msgid "Select QR Code"
 msgstr "QR Kodu Seç"
 
-#: src/widgets/accounts/add.rs:296
+#: src/widgets/accounts/add.rs:303
 msgid "Invalid Token"
 msgstr "Yanlış Token"
 
-#: src/widgets/accounts/details.rs:123
+#: src/widgets/accounts/details.rs:124
 msgid "Are you sure you want to delete the account?"
 msgstr "Hesabı silmək istədiyinizə əminsiniz?"
 
-#: src/widgets/accounts/details.rs:124
+#: src/widgets/accounts/details.rs:125
 msgid "This action is irreversible"
 msgstr "Bu əməliyyat geri alınmazdır"
 
-#: src/widgets/accounts/details.rs:126
+#: src/widgets/accounts/details.rs:127
 msgid "No"
 msgstr "Xeyr"
 
-#: src/widgets/accounts/details.rs:126
+#: src/widgets/accounts/details.rs:127
 msgid "Yes"
 msgstr "Bəli"
 
-#: src/widgets/backup/dialog.rs:163 src/widgets/backup/dialog.rs:245
+#: src/widgets/backup/dialog.rs:165 src/widgets/backup/dialog.rs:247
 msgid "Key / Passphrase"
 msgstr "Açar / Parol İfadəsi"
 
-#: src/widgets/backup/dialog.rs:174 src/widgets/backup/dialog.rs:257
+#: src/widgets/backup/dialog.rs:176 src/widgets/backup/dialog.rs:259
 msgid "Select File"
 msgstr "Fayl Seç"
 
-#: src/widgets/backup/dialog.rs:205
+#: src/widgets/backup/dialog.rs:207
 msgid "Failed to create a backup"
 msgstr "Yedək yaratmaq alınmadı"
 
-#: src/widgets/backup/dialog.rs:327
+#: src/widgets/backup/dialog.rs:329
 msgid "Failed to restore from camera"
 msgstr "Kameradan bərpa etmək alınmadı"
 
-#: src/widgets/backup/dialog.rs:352
+#: src/widgets/backup/dialog.rs:354
 msgid "Failed to restore from a screenshot"
 msgstr "Ekran görüntüsündən bərpa etmək alınmadı"
 
-#: src/widgets/backup/dialog.rs:372
+#: src/widgets/backup/dialog.rs:374
 msgid "Failed to restore from an image"
 msgstr "Şəkildən bərpa etmək alınmadı"
 
-#: src/widgets/backup/dialog.rs:396
+#: src/widgets/backup/dialog.rs:398
 msgid "Failed to restore from a file"
 msgstr "Fayldan bərpa etmək alınmadı"
 
-#: src/widgets/preferences/password_page.rs:195
-#: src/widgets/preferences/password_page.rs:237
+#: src/widgets/preferences/password_page.rs:196
+#: src/widgets/preferences/password_page.rs:238
 msgid "Wrong Passphrase"
 msgstr "Yanlış Parol İfadəsi"
 
-#: src/widgets/providers/dialog.rs:261
+#: src/widgets/providers/dialog.rs:262
 msgid "Provider created successfully"
 msgstr "Təminatçı uğurla yaradıldı"
 
-#: src/widgets/providers/dialog.rs:271
+#: src/widgets/providers/dialog.rs:272
 msgid "Provider updated successfully"
 msgstr "Təminatçı uğurla yeniləndi"
 
-#: src/widgets/providers/dialog.rs:287
+#: src/widgets/providers/dialog.rs:288
 msgid "Provider removed successfully"
 msgstr "Təminatçı uğurla silindi"
 
-#: src/widgets/providers/page.rs:185
+#: src/widgets/providers/page.rs:188
+#, rust-format
 msgid "Editing Provider: {}"
 msgstr "Təminatçı Redaktə Edilir: {}"
 
-#: src/widgets/providers/page.rs:324
+#: src/widgets/providers/page.rs:329
 msgid "The provider has accounts assigned to it, please remove them first"
 msgstr "Təminatçıya təyin edilmiş hesablar var, lütfən əvvəlcə onları silin"
 
 #: src/widgets/window.rs:115
 msgid "Wrong Password"
 msgstr "Yanlış Parol"
-
