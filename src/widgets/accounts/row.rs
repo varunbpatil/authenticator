@@ -1,16 +1,15 @@
+use gettextrs::gettext;
 use gtk::{gdk, glib, prelude::*};
 
-use crate::models::Account;
+use crate::{models::Account, widgets::Window};
 
 mod imp {
     use std::cell::OnceCell;
 
     use adw::subclass::prelude::*;
-    use gettextrs::gettext;
     use glib::subclass;
 
     use super::*;
-    use crate::widgets::Window;
 
     #[derive(Default, gtk::CompositeTemplate, glib::Properties)]
     #[properties(wrapper_type = super::AccountRow)]
@@ -40,11 +39,7 @@ mod imp {
             );
 
             klass.install_action("account.copy-otp", None, |row, _, _| {
-                row.account().copy_otp();
-                let window = row.root().and_downcast::<Window>().unwrap();
-                let toast = adw::Toast::new(&gettext("One-Time password copied"));
-                toast.set_timeout(3);
-                window.add_toast(toast);
+                row.copy_otp();
             });
             klass.install_action("account.increment-counter", None, |row, _, _| {
                 match row.account().increment_counter() {
@@ -101,5 +96,25 @@ glib::wrapper! {
 impl AccountRow {
     pub fn new(account: &Account) -> Self {
         glib::Object::builder().property("account", account).build()
+    }
+
+    /// Copy the one-time password to the clipboard and show a confirmation toast.
+    pub fn copy_otp(&self) {
+        self.account().copy_otp();
+
+        if let Some(window) = self.root().and_downcast::<Window>() {
+            let toast = adw::Toast::new(&gettext("One-Time password copied"));
+            toast.set_timeout(3);
+            window.add_toast(toast);
+        }
+    }
+
+    /// Mark this row as the currently selected account in the list.
+    pub fn set_selected(&self, selected: bool) {
+        if selected {
+            self.add_css_class("account-selected");
+        } else {
+            self.remove_css_class("account-selected");
+        }
     }
 }

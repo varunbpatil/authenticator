@@ -45,6 +45,7 @@
     </child>
     <child>
       <object class="GtkEventControllerKey" id="key_gesture">
+        <property name="propagation-phase">capture</property>
         <signal handler="on_key_pressed" name="key-pressed" swapped="true" />
       </object>
     </child>

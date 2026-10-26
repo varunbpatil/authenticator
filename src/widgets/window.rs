@@ -3,7 +3,7 @@ use std::cell::OnceCell;
 use adw::prelude::*;
 use gettextrs::gettext;
 use gtk::{
-    gio,
+    gdk, gio,
     glib::{self, clone},
     subclass::prelude::*,
 };
@@ -298,6 +298,29 @@ impl Window {
         self.imp().providers.clone()
     }
 
+    fn should_handle_account_keys(&self) -> bool {
+        let imp = self.imp();
+
+        // The providers list is only mapped while the accounts list is visible.
+        if !imp.providers.is_mapped() {
+            return false;
+        }
+
+        let Some(focus) = gtk::prelude::RootExt::focus(self) else {
+            return false;
+        };
+
+        let search_entry = imp.search_entry.clone().upcast::<gtk::Widget>();
+        let providers = imp.providers.clone().upcast::<gtk::Widget>();
+
+        // `GtkSearchEntry` focuses an internal text widget, so also check whether
+        // the focused widget is a descendant of the search entry.
+        focus == search_entry
+            || focus.is_ancestor(&search_entry)
+            || focus == providers
+            || focus.is_ancestor(&providers)
+    }
+
     fn app(&self) -> Application {
         self.application().and_downcast::<Application>().unwrap()
     }
@@ -340,8 +363,51 @@ impl Window {
     }
 
     #[template_callback]
-    fn on_key_pressed(&self) -> glib::Propagation {
+    fn on_key_pressed(
+        &self,
+        keyval: gdk::Key,
+        _keycode: u32,
+        state: gdk::ModifierType,
+    ) -> glib::Propagation {
         self.app().restart_lock_timeout();
+
+        if self.should_handle_account_keys() {
+            let has_control = state.contains(gdk::ModifierType::CONTROL_MASK);
+            let has_other_modifier = state.intersects(
+                gdk::ModifierType::ALT_MASK
+                    | gdk::ModifierType::SUPER_MASK
+                    | gdk::ModifierType::SHIFT_MASK,
+            );
+
+            if has_control && !has_other_modifier && keyval == gdk::Key::c {
+                return if self.providers().copy_selected_otp() {
+                    glib::Propagation::Stop
+                } else {
+                    glib::Propagation::Proceed
+                };
+            }
+
+            if !has_control && !has_other_modifier {
+                match keyval {
+                    gdk::Key::Down => {
+                        return if self.providers().select_next() {
+                            glib::Propagation::Stop
+                        } else {
+                            glib::Propagation::Proceed
+                        };
+                    }
+                    gdk::Key::Up => {
+                        return if self.providers().select_previous() {
+                            glib::Propagation::Stop
+                        } else {
+                            glib::Propagation::Proceed
+                        };
+                    }
+                    _ => (),
+                }
+            }
+        }
+
         glib::Propagation::Proceed
     }
 

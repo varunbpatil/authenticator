@@ -55,6 +55,10 @@ mod imp {
             static SIGNALS: LazyLock<Vec<Signal>> = LazyLock::new(|| {
                 vec![
                     Signal::builder("changed").action().build(),
+                    Signal::builder("account-focused")
+                        .param_types([AccountRow::static_type()])
+                        .action()
+                        .build(),
                     Signal::builder("shared")
                         .param_types([Account::static_type()])
                         .action()
@@ -127,6 +131,42 @@ impl ProviderRow {
         )
     }
 
+    pub fn connect_account_focused<F>(&self, callback: F) -> glib::SignalHandlerId
+    where
+        F: Fn(&Self, AccountRow) + 'static,
+    {
+        self.connect_local(
+            "account-focused",
+            false,
+            clone!(
+                #[weak(rename_to = row)]
+                self,
+                #[upgrade_or]
+                None,
+                move |args| {
+                    let account_row = args[1].get::<AccountRow>().unwrap();
+                    callback(&row, account_row);
+                    None
+                }
+            ),
+        )
+    }
+
+    /// Returns the account rows in the order they are displayed.
+    pub fn account_rows(&self) -> Vec<AccountRow> {
+        let mut rows = Vec::new();
+        let mut child = self.imp().accounts_list.first_child();
+
+        while let Some(widget) = child {
+            child = widget.next_sibling();
+            if let Some(row) = widget.downcast_ref::<AccountRow>() {
+                rows.push(row.clone());
+            }
+        }
+
+        rows
+    }
+
     fn tick_progressbar(&self) {
         let imp = self.imp();
         let period_millis = self.provider().period() as u128 * 1000;
@@ -182,6 +222,18 @@ impl ProviderRow {
             move |account: &glib::Object| {
                 let account = account.downcast_ref::<Account>().unwrap();
                 let row = AccountRow::new(account);
+
+                let focus_controller = gtk::EventControllerFocus::new();
+                focus_controller.connect_enter(clone!(
+                    #[weak]
+                    provider_row,
+                    #[weak]
+                    row,
+                    move |_| {
+                        provider_row.emit_by_name::<()>("account-focused", &[&row]);
+                    }
+                ));
+                row.add_controller(focus_controller);
 
                 row.connect_activated(clone!(
                     #[weak]

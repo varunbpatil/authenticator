@@ -47,6 +47,12 @@
         </child>
         <child>
           <object class="AdwShortcutsItem">
+            <property name="title" translatable="yes" context="shortcut window">Copy Selected Code</property>
+            <property name="accelerator">&lt;Control&gt;c</property>
+          </object>
+        </child>
+        <child>
+          <object class="AdwShortcutsItem">
             <property name="title" translatable="yes" context="shortcut window">Show Providers List</property>
             <property name="action-name">app.providers</property>
           </object>

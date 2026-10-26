@@ -2,6 +2,14 @@
 <img src="https://flathub.org/api/badge?svg&locale=en&light" />
 </a>
 
+> [!NOTE]
+> This is a fork of [GNOME Authenticator](https://gitlab.gnome.org/World/Authenticator)
+> that adds usability improvements, including:
+>
+> - Automatically selecting the first account in filtered search results
+> - Navigating accounts and providers with `Up`/`Down`
+> - Copying the selected account's code with `Ctrl+C`
+
 # Authenticator
 
 <img src="data/icons/com.belmoussaoui.Authenticator.svg" width="128px" height="128px" />

@@ -2,7 +2,7 @@
 <interface>
   <template parent="GtkBox" class="ProvidersList">
     <child>
-      <object class="GtkScrolledWindow">
+      <object class="GtkScrolledWindow" id="scrolled_window">
         <child>
           <object class="GtkStack" id="stack">
             <property name="transition-type">crossfade</property>
